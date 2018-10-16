@@ -19,7 +19,7 @@ def ord_seleccion(lista):
         
 
         
-        print ("PASOS: ", p, n, lista)
+        print ("PASOS: ", mayorindice, n, lista)
         
         # reduce el segmento en 1
         n = n - 1

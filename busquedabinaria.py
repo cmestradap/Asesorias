@@ -3,6 +3,7 @@
 def busqueda_binaria(lista, x):
     """Búsqueda binaria
     Precondición: lista está ordenada
+    x es el elemento que voy a buscar
     Devuelve -1 si x no está en lista;
     Devuelve p tal que lista[p] == x, si x está en lista
     """
@@ -51,4 +52,5 @@ def main():
 
 
 lista2= [1,4,8,9,21,25,89,92]
-print(busqueda_binaria(lista2, 89))
+
+print(busqueda_binaria([4,5,7,9],9))
